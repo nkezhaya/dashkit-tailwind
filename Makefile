@@ -3,13 +3,9 @@ TARGET_ARCH := $(shell uname -p | tr '[:upper:]' '[:lower:]')
 TAILWIND_VERSION := "v3.0.18"
 
 all: bin/tailwind
-	bin/tailwind
-	mkdir -p build
 	bin/tailwind --input src/theme.css --output src/theme.dist.css
 
 watch: bin/tailwind
-	bin/tailwind
-	mkdir -p build
 	bin/tailwind --input src/theme.css --output src/theme.dist.css --watch
 
 bin/tailwind:
