@@ -1,3 +1,6 @@
 .DS_Store
 bin/tailwind
 src/theme.dist.css
+node_modules
+package.json
+package-lock.json
