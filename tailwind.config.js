@@ -18,6 +18,7 @@ module.exports = {
     },
     fontFamily: {
       sans: ['"Cerebri Sans"', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', '"Helvetica Neue"', 'Arial', '"Noto Sans"', 'sans-serif', '"Apple Color Emoji"', '"Segoe UI Emoji"', '"Segoe UI Symbol"', '"Noto Color Emoji"'],
+      icon: ['Feather'],
     },
     fontSize: {
       base: ['0.9375rem', '1.5'],

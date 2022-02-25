@@ -14,7 +14,7 @@ bin/tailwind:
 	chmod +x bin/tailwind
 
 format: node_modules/.bin/prettier
-	node_modules/.bin/prettier --write src/*.html
+	node_modules/.bin/prettier --print-width 256 --html-whitespace-sensitivity ignore --write src/*.html
 
 node_modules/.bin/prettier:
 	npm init --force
